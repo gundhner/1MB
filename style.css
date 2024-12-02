@@ -1,0 +1,54 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 21%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-lista {
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    color: white;
+    gap: 28px;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+section{
+    width: 100%;
+    padding-left: 8%;
+}
+
+.secao{
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.moldura_videos {
+    display: flex;
+    flex-wrap: ;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.video{
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.video iframe{
+    width: 100%;
+    height: auto;
+border-radius: 15px;}
+
+* {margin: 0;padding: 0;}
